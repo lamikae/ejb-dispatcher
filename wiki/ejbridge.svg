@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="720"
+   height="340"
+   id="svg1901"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="ejbridge.svg"
+   sodipodi:docbase="/home/tsoots/ohj/translations/po"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0"
+   inkscape:export-filename="/mnt/home/mikael/dev/ejb-dispatcher/wiki/ejbridge.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs1903">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective7" />
+    <inkscape:perspective
+       id="perspective3314"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3398"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3465"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3553"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3620"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3687"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="338.02267"
+     inkscape:cy="232.55834"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     gridtolerance="10000"
+     inkscape:window-width="1280"
+     inkscape:window-height="770"
+     inkscape:window-x="0"
+     inkscape:window-y="6"
+     showgrid="false" />
+  <metadata
+     id="metadata1906">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Taso 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="opacity:1"
+     transform="translate(-24.753813,-143.29076)">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.99554545px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 229.43778,153.89005 C 228.34858,168.82271 214.11901,178.35129 229.43778,193.53202 C 239.31707,203.32226 237.36501,231.29209 229.43778,236.00556 C 213.97023,245.20245 231.46856,273.41264 239.4384,281.31066 C 256.7233,298.43978 225.68754,305.46753 222.29449,313.87372 C 218.071,324.33729 239.98058,331.75859 243.72438,337.94205 C 254.52342,355.77823 232.66225,369.59553 229.43778,377.58401 C 221.16552,398.07829 239.4384,392.15582 239.4384,412.97864 C 239.4384,422.80795 241.58668,426.28492 232.29511,429.96804"
+       id="path2382" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 543.72372,165.32085 C 525.24802,187.44125 539.44936,184.86358 550.86658,203.89227 C 564.90494,227.28954 525.15229,224.06191 525.15229,239.60656 C 525.15229,256.84768 553.72372,255.39572 553.72372,275.32085 C 553.72372,296.07172 522.57924,287.6991 536.58086,311.03513 C 546.09078,326.88499 560.86658,310.96392 560.86658,343.89227 C 560.86658,368.77456 543.37791,358.32824 536.58086,375.32085 C 527.53926,397.92485 558.00943,397.89286 558.00943,415.32085 C 558.00943,428.59133 538.2124,425.32085 525.15229,425.32085"
+       id="path2390" />
+    <rect
+       style="fill:#7f007f;fill-opacity:0.49019608;stroke:#000000;stroke-opacity:1"
+       id="rect2420"
+       width="202.85715"
+       height="200"
+       x="286.58084"
+       y="179.60657" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="315.15228"
+       y="225.32086"
+       id="text4662"><tspan
+         sodipodi:role="line"
+         id="tspan4664"
+         x="315.15228"
+         y="225.32086" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.65114021px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="350.10034"
+       y="248.61588"
+       id="text4667"
+       transform="scale(0.887595,1.12664)"><tspan
+         sodipodi:role="line"
+         id="tspan4669"
+         x="350.10034"
+         y="248.61588"
+         style="font-size:19.52709007px">EjbObject proxies</tspan><tspan
+         sodipodi:role="line"
+         x="350.10034"
+         y="273.02475"
+         style="font-size:19.52709007px"
+         id="tspan2431">the EJB stubs.</tspan></text>
+    <rect
+       style="opacity:1;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4675"
+       width="54.043159"
+       height="55.558392"
+       x="364.15997"
+       y="314.95081" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="376.7869"
+       y="332.62848"
+       id="text4677"><tspan
+         sodipodi:role="line"
+         id="tspan4679"
+         x="376.7869"
+         y="332.62848">stub</tspan></text>
+    <rect
+       style="opacity:1;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4705"
+       width="131.31982"
+       height="217.1828"
+       x="598.01031"
+       y="168.9838" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="249.50769"
+       y="268.48376"
+       id="text4717"><tspan
+         sodipodi:role="line"
+         id="tspan4719"
+         x="249.50769"
+         y="268.48376">DRb</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="498.00522"
+       y="267.47363"
+       id="text4721"><tspan
+         sodipodi:role="line"
+         id="tspan4723"
+         x="498.00522"
+         y="267.47363">RMI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:23.1967144px;font-style:normal;font-weight:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="609.88293"
+       y="385.07227"
+       id="text4725"
+       transform="scale(0.8421766,1.1873995)"><tspan
+         sodipodi:role="line"
+         id="tspan4727"
+         x="609.88293"
+         y="385.07227">TCP/IP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="609.12201"
+       y="202.8239"
+       id="text4729"><tspan
+         sodipodi:role="line"
+         id="tspan4731"
+         x="609.12201"
+         y="202.8239">J2EE</tspan><tspan
+         sodipodi:role="line"
+         x="609.12201"
+         y="230.3239"
+         id="tspan4735">EJB</tspan><tspan
+         sodipodi:role="line"
+         x="609.12201"
+         y="257.82388"
+         id="tspan4733">container</tspan></text>
+    <rect
+       style="opacity:1;fill:#0000ff;fill-opacity:0;fill-rule:nonzero;stroke:#000000;stroke-width:1.22278559;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4737"
+       width="163.42194"
+       height="120.99551"
+       x="307.19775"
+       y="254.45306" />
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="308.09653"
+       y="207.87466"
+       id="text4739"><tspan
+         sodipodi:role="line"
+         id="tspan4741"
+         x="308.09653"
+         y="207.87466">EJB-dispatcher</tspan></text>
+    <g
+       id="g2463"
+       transform="matrix(0.4188142,0,0,0.4136903,102.11557,165.40114)">
+      <rect
+         y="165.44826"
+         x="40.406101"
+         height="217.1828"
+         width="131.31982"
+         id="rect4701"
+         style="opacity:1;fill:#ff0045;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         id="text4707"
+         y="205.85435"
+         x="58.588844"
+         style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="205.85435"
+           x="58.588844"
+           id="tspan4709"
+           sodipodi:role="line">ActiveEJB</tspan></text>
+      <image
+         xlink:href="/mnt/home/mikael/kirjasto/grafiikka/ikonit/rails.png"
+         sodipodi:absref="/mnt/home/mikael/kirjasto/grafiikka/ikonit/rails.png"
+         width="133.98975"
+         height="164.8222"
+         id="image3316"
+         x="27.964546"
+         y="224.10295" />
+    </g>
+    <image
+       y="257.53189"
+       x="615.30731"
+       id="image3400"
+       height="179.7867"
+       width="101.78674"
+       sodipodi:absref="/mnt/home/mikael/kirjasto/grafiikka/ikonit/322px-Java_Logo.svg.png"
+       xlink:href="/mnt/home/mikael/kirjasto/grafiikka/ikonit/322px-Java_Logo.svg.png" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="60.109154"
+       y="414.6004"
+       id="text3471"><tspan
+         sodipodi:role="line"
+         id="tspan3473"
+         x="60.109154"
+         y="414.6004"
+         style="font-size:18px">MRI Ruby</tspan></text>
+    <image
+       y="342.04962"
+       x="365.35544"
+       id="image3689"
+       height="82.472069"
+       width="94.593895"
+       sodipodi:absref="/mnt/home/mikael/kirjasto/grafiikka/ikonit/jruby-pickaxe.png"
+       xlink:href="/mnt/home/mikael/kirjasto/grafiikka/ikonit/jruby-pickaxe.png" />
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="317.69806"
+       y="405.50903"
+       id="text3693"><tspan
+         sodipodi:role="line"
+         id="tspan3695"
+         x="317.69806"
+         y="405.50903">JRuby</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:13.4,6.7,3.35,6.7;stroke-dashoffset:0"
+       d="M 597.5103,279.23994 C 489.42398,279.23994 489.42398,279.23994 489.42398,279.23994 L 489.42398,284.29071"
+       id="path3703" />
+    <path
+       style="opacity:1;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6.69999981;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:13.39999962,6.69999981,3.3499999,6.69999981;stroke-dashoffset:49.57999859;stroke-opacity:1"
+       d="M 285.87825,278.73487 C 177.79193,278.73487 177.79193,278.73487 177.79193,278.73487 L 177.79193,283.78564"
+       id="path3705" />
+    <text
+       xml:space="preserve"
+       style="font-size:23.1967144px;font-style:normal;font-weight:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="244.65503"
+       y="387.32504"
+       id="text3707"
+       transform="scale(0.8421766,1.1873995)"><tspan
+         sodipodi:role="line"
+         id="tspan3709"
+         x="244.65503"
+         y="387.32504">TCP/IP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="340.93158"
+       y="237.82368"
+       id="text2435"><tspan
+         sodipodi:role="line"
+         id="tspan2437"
+         x="340.93158"
+         y="237.82368">Threading</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 363.65492,100.59385 C 363.65492,110.69537 363.65492,110.69537 363.65492,110.69537"
+       id="path2439"
+       transform="translate(24.753813,143.29076)" />
+    <g
+       style="opacity:1"
+       id="g2469"
+       transform="matrix(0.4188142,0,0,0.4136903,33.340782,220.23295)">
+      <rect
+         y="165.44826"
+         x="40.406101"
+         height="217.1828"
+         width="131.31982"
+         id="rect2471"
+         style="opacity:1;fill:#ff0045;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         id="text2473"
+         y="205.85435"
+         x="58.588844"
+         style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="205.85435"
+           x="58.588844"
+           id="tspan2475"
+           sodipodi:role="line">ActiveEJB</tspan></text>
+      <image
+         xlink:href="/mnt/home/mikael/kirjasto/grafiikka/ikonit/rails.png"
+         sodipodi:absref="/mnt/home/mikael/kirjasto/grafiikka/ikonit/rails.png"
+         width="133.98975"
+         height="164.8222"
+         id="image2477"
+         x="27.964546"
+         y="224.10295" />
+    </g>
+    <g
+       style="opacity:1"
+       id="g2479"
+       transform="matrix(0.4188142,0,0,0.4136903,35.361081,95.984178)">
+      <rect
+         y="165.44826"
+         x="40.406101"
+         height="217.1828"
+         width="131.31982"
+         id="rect2481"
+         style="opacity:1;fill:#ff0045;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         id="text2483"
+         y="205.85435"
+         x="58.588844"
+         style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="205.85435"
+           x="58.588844"
+           id="tspan2485"
+           sodipodi:role="line">ActiveEJB</tspan></text>
+      <image
+         xlink:href="/mnt/home/mikael/kirjasto/grafiikka/ikonit/rails.png"
+         sodipodi:absref="/mnt/home/mikael/kirjasto/grafiikka/ikonit/rails.png"
+         width="133.98975"
+         height="164.8222"
+         id="image2487"
+         x="27.964546"
+         y="224.10295" />
+    </g>
+    <path
+       style="opacity:1;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6.66113615;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:13.32227203, 6.66113602, 3.33056801, 6.66113602;stroke-dashoffset:49.29240653;stroke-opacity:1"
+       d="M 285.89767,200.93369 C 110.09227,200.93369 110.09227,200.93369 110.09227,200.93369 L 110.09227,204.00301"
+       id="path2489" />
+    <path
+       style="opacity:1;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6.661;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:13.322,6.661,3.3305,6.661;stroke-dashoffset:49.29140069;stroke-opacity:1"
+       d="M 287.41291,351.44642 C 111.60751,351.44642 108.57705,351.44642 108.57705,351.44642 L 108.57705,354.51574"
+       id="path2491"
+       sodipodi:nodetypes="ccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="52.027927"
+       y="160.04195"
+       id="text3263"><tspan
+         sodipodi:role="line"
+         id="tspan3265"
+         x="52.027927"
+         y="160.04195">EJB00</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="117.68784"
+       y="227.72217"
+       id="text3267"><tspan
+         sodipodi:role="line"
+         id="tspan3269"
+         x="117.68784"
+         y="227.72217">EJB01</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="52.027931"
+       y="284.29071"
+       id="text3271"><tspan
+         sodipodi:role="line"
+         id="tspan3273"
+         x="52.027931"
+         y="284.29071">EJB02</tspan></text>
+  </g>
+</svg>
