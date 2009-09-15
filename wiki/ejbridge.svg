@@ -178,12 +178,12 @@
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        x="249.50769"
-       y="268.48376"
+       y="207.87462"
        id="text4717"><tspan
          sodipodi:role="line"
          id="tspan4719"
          x="249.50769"
-         y="268.48376">DRb</tspan></text>
+         y="207.87462">DRb</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
@@ -240,35 +240,6 @@
          id="tspan4741"
          x="308.09653"
          y="207.87466">EJB-dispatcher</tspan></text>
-    <g
-       id="g2463"
-       transform="matrix(0.4188142,0,0,0.4136903,102.11557,165.40114)">
-      <rect
-         y="165.44826"
-         x="40.406101"
-         height="217.1828"
-         width="131.31982"
-         id="rect4701"
-         style="opacity:1;fill:#ff0045;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-      <text
-         id="text4707"
-         y="205.85435"
-         x="58.588844"
-         style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           y="205.85435"
-           x="58.588844"
-           id="tspan4709"
-           sodipodi:role="line">ActiveEJB</tspan></text>
-      <image
-         xlink:href="/mnt/home/mikael/kirjasto/grafiikka/ikonit/rails.png"
-         sodipodi:absref="/mnt/home/mikael/kirjasto/grafiikka/ikonit/rails.png"
-         width="133.98975"
-         height="164.8222"
-         id="image3316"
-         x="27.964546"
-         y="224.10295" />
-    </g>
     <image
        y="257.53189"
        x="615.30731"
@@ -280,13 +251,13 @@
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       x="60.109154"
-       y="414.6004"
+       x="72.230988"
+       y="406.5192"
        id="text3471"><tspan
          sodipodi:role="line"
          id="tspan3473"
-         x="60.109154"
-         y="414.6004"
+         x="72.230988"
+         y="406.5192"
          style="font-size:18px">MRI Ruby</tspan></text>
     <image
        y="342.04962"
@@ -310,10 +281,6 @@
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:13.4,6.7,3.35,6.7;stroke-dashoffset:0"
        d="M 597.5103,279.23994 C 489.42398,279.23994 489.42398,279.23994 489.42398,279.23994 L 489.42398,284.29071"
        id="path3703" />
-    <path
-       style="opacity:1;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6.69999981;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:13.39999962,6.69999981,3.3499999,6.69999981;stroke-dashoffset:49.57999859;stroke-opacity:1"
-       d="M 285.87825,278.73487 C 177.79193,278.73487 177.79193,278.73487 177.79193,278.73487 L 177.79193,283.78564"
-       id="path3705" />
     <text
        xml:space="preserve"
        style="font-size:23.1967144px;font-style:normal;font-weight:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
@@ -340,104 +307,122 @@
        d="M 363.65492,100.59385 C 363.65492,110.69537 363.65492,110.69537 363.65492,110.69537"
        id="path2439"
        transform="translate(24.753813,143.29076)" />
-    <g
+    <image
        style="opacity:1"
-       id="g2469"
-       transform="matrix(0.4188142,0,0,0.4136903,33.340782,220.23295)">
+       y="173.54111"
+       x="45.052731"
+       id="image2477"
+       height="207.58641"
+       width="145.01024"
+       sodipodi:absref="/mnt/home/mikael/kirjasto/grafiikka/ikonit/rails.png"
+       xlink:href="/mnt/home/mikael/kirjasto/grafiikka/ikonit/rails.png" />
+    <path
+       style="opacity:1;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6.66113615;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:13.32227203, 6.66113602, 3.33056801, 6.66113602;stroke-dashoffset:49.29240653;stroke-opacity:1"
+       d="M 280.84691,221.13674 C 105.04151,221.13674 105.04151,221.13674 105.04151,221.13674 L 105.04151,224.20606"
+       id="path2489" />
+    <path
+       style="opacity:1;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6.66099977;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:13.322, 6.661, 3.3305, 6.661;stroke-dashoffset:49.29140069;stroke-opacity:1"
+       d="M 285.3926,308.00986 C 109.5872,308.00986 106.55674,308.00986 106.55674,308.00986 L 106.55674,311.07918"
+       id="path2491"
+       sodipodi:nodetypes="ccc" />
+    <g
+       id="g2472">
       <rect
-         y="165.44826"
-         x="40.406101"
-         height="217.1828"
-         width="131.31982"
+         y="288.59244"
+         x="50.178589"
+         height="31.427258"
+         width="55.168293"
          id="rect2471"
-         style="opacity:1;fill:#ff0045;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+         style="opacity:1;fill:#ff0045;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.24655859;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
       <text
+         transform="scale(1.0061739,0.993864)"
          id="text2473"
-         y="205.85435"
-         x="58.588844"
-         style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         y="307.27835"
+         x="57.523479"
+         style="font-size:8.32488728px;font-style:normal;font-weight:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
          xml:space="preserve"><tspan
-           y="205.85435"
-           x="58.588844"
+           y="307.27835"
+           x="57.523479"
            id="tspan2475"
            sodipodi:role="line">ActiveEJB</tspan></text>
-      <image
-         xlink:href="/mnt/home/mikael/kirjasto/grafiikka/ikonit/rails.png"
-         sodipodi:absref="/mnt/home/mikael/kirjasto/grafiikka/ikonit/rails.png"
-         width="133.98975"
-         height="164.8222"
-         id="image2477"
-         x="27.964546"
-         y="224.10295" />
+      <text
+         id="text3271"
+         y="284.29071"
+         x="52.027931"
+         style="font-size:10px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="284.29071"
+           x="52.027931"
+           id="tspan3273"
+           sodipodi:role="line">EJB02</tspan></text>
     </g>
     <g
        style="opacity:1"
        id="g2479"
-       transform="matrix(0.4188142,0,0,0.4136903,35.361081,95.984178)">
+       transform="translate(68.209384,-37.448705)">
       <rect
-         y="165.44826"
-         x="40.406101"
-         height="217.1828"
-         width="131.31982"
+         y="288.59244"
+         x="50.178589"
+         height="31.427258"
+         width="55.168293"
          id="rect2481"
-         style="opacity:1;fill:#ff0045;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+         style="opacity:1;fill:#ff0045;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.24655859;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
       <text
+         transform="scale(1.0061739,0.993864)"
          id="text2483"
-         y="205.85435"
-         x="58.588844"
-         style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         y="307.27835"
+         x="57.523479"
+         style="font-size:8.32488728px;font-style:normal;font-weight:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
          xml:space="preserve"><tspan
-           y="205.85435"
-           x="58.588844"
+           y="307.27835"
+           x="57.523479"
            id="tspan2485"
            sodipodi:role="line">ActiveEJB</tspan></text>
-      <image
-         xlink:href="/mnt/home/mikael/kirjasto/grafiikka/ikonit/rails.png"
-         sodipodi:absref="/mnt/home/mikael/kirjasto/grafiikka/ikonit/rails.png"
-         width="133.98975"
-         height="164.8222"
-         id="image2487"
-         x="27.964546"
-         y="224.10295" />
+      <text
+         id="text2487"
+         y="284.29071"
+         x="52.027931"
+         style="font-size:10px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="284.29071"
+           x="52.027931"
+           sodipodi:role="line"
+           id="tspan2508">EJB01</tspan></text>
+    </g>
+    <g
+       id="g2512">
+      <rect
+         y="203.66656"
+         x="49.697598"
+         height="31.427258"
+         width="55.168293"
+         id="rect2493"
+         style="opacity:1;fill:#ff0045;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.24655859;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         transform="scale(1.0061739,0.993864)"
+         id="text2495"
+         y="221.82816"
+         x="57.045441"
+         style="font-size:8.32488728px;font-style:normal;font-weight:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="221.82816"
+           x="57.045441"
+           id="tspan2497"
+           sodipodi:role="line">ActiveEJB</tspan></text>
+      <text
+         id="text2499"
+         y="199.36484"
+         x="51.54694"
+         style="font-size:10px;font-style:normal;font-weight:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="199.36484"
+           x="51.54694"
+           id="tspan2501"
+           sodipodi:role="line">EJB00</tspan></text>
     </g>
     <path
-       style="opacity:1;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6.66113615;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:13.32227203, 6.66113602, 3.33056801, 6.66113602;stroke-dashoffset:49.29240653;stroke-opacity:1"
-       d="M 285.89767,200.93369 C 110.09227,200.93369 110.09227,200.93369 110.09227,200.93369 L 110.09227,204.00301"
-       id="path2489" />
-    <path
-       style="opacity:1;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6.661;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:13.322,6.661,3.3305,6.661;stroke-dashoffset:49.29140069;stroke-opacity:1"
-       d="M 287.41291,351.44642 C 111.60751,351.44642 108.57705,351.44642 108.57705,351.44642 L 108.57705,354.51574"
-       id="path2491"
-       sodipodi:nodetypes="ccc" />
-    <text
-       xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       x="52.027927"
-       y="160.04195"
-       id="text3263"><tspan
-         sodipodi:role="line"
-         id="tspan3265"
-         x="52.027927"
-         y="160.04195">EJB00</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       x="117.68784"
-       y="227.72217"
-       id="text3267"><tspan
-         sodipodi:role="line"
-         id="tspan3269"
-         x="117.68784"
-         y="227.72217">EJB01</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       x="52.027931"
-       y="284.29071"
-       id="text3271"><tspan
-         sodipodi:role="line"
-         id="tspan3273"
-         x="52.027931"
-         y="284.29071">EJB02</tspan></text>
+       style="opacity:1;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6.69999981;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:13.39999962, 6.69999981, 3.3499999, 6.69999981;stroke-dashoffset:49.57999859;stroke-opacity:1"
+       d="M 285.87825,266.61304 C 177.79193,266.61304 177.79193,266.61304 177.79193,266.61304 L 177.79193,271.66381"
+       id="path3705" />
   </g>
 </svg>
