@@ -72,6 +72,13 @@
        inkscape:vp_y="0 : 1000 : 0"
        inkscape:vp_x="0 : 526.18109 : 1"
        sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3387"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -81,8 +88,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="338.02267"
-     inkscape:cy="232.55834"
+     inkscape:cx="370.67922"
+     inkscape:cy="187.80201"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      gridtolerance="10000"
@@ -133,40 +140,6 @@
          id="tspan4664"
          x="315.15228"
          y="225.32086" /></text>
-    <text
-       xml:space="preserve"
-       style="font-size:10.65114021px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       x="350.10034"
-       y="248.61588"
-       id="text4667"
-       transform="scale(0.887595,1.12664)"><tspan
-         sodipodi:role="line"
-         id="tspan4669"
-         x="350.10034"
-         y="248.61588"
-         style="font-size:19.52709007px">EjbObject proxies</tspan><tspan
-         sodipodi:role="line"
-         x="350.10034"
-         y="273.02475"
-         style="font-size:19.52709007px"
-         id="tspan2431">the EJB stubs.</tspan></text>
-    <rect
-       style="opacity:1;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect4675"
-       width="54.043159"
-       height="55.558392"
-       x="364.15997"
-       y="314.95081" />
-    <text
-       xml:space="preserve"
-       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       x="376.7869"
-       y="332.62848"
-       id="text4677"><tspan
-         sodipodi:role="line"
-         id="tspan4679"
-         x="376.7869"
-         y="332.62848">stub</tspan></text>
     <rect
        style="opacity:1;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect4705"
@@ -223,13 +196,6 @@
          x="609.12201"
          y="257.82388"
          id="tspan4733">container</tspan></text>
-    <rect
-       style="opacity:1;fill:#0000ff;fill-opacity:0;fill-rule:nonzero;stroke:#000000;stroke-width:1.22278559;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect4737"
-       width="163.42194"
-       height="120.99551"
-       x="307.19775"
-       y="254.45306" />
     <text
        xml:space="preserve"
        style="font-size:22px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
@@ -259,24 +225,6 @@
          x="72.230988"
          y="406.5192"
          style="font-size:18px">MRI Ruby</tspan></text>
-    <image
-       y="342.04962"
-       x="365.35544"
-       id="image3689"
-       height="82.472069"
-       width="94.593895"
-       sodipodi:absref="/mnt/home/mikael/kirjasto/grafiikka/ikonit/jruby-pickaxe.png"
-       xlink:href="/mnt/home/mikael/kirjasto/grafiikka/ikonit/jruby-pickaxe.png" />
-    <text
-       xml:space="preserve"
-       style="font-size:18px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       x="317.69806"
-       y="405.50903"
-       id="text3693"><tspan
-         sodipodi:role="line"
-         id="tspan3695"
-         x="317.69806"
-         y="405.50903">JRuby</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:13.4,6.7,3.35,6.7;stroke-dashoffset:0"
        d="M 597.5103,279.23994 C 489.42398,279.23994 489.42398,279.23994 489.42398,279.23994 L 489.42398,284.29071"
@@ -294,19 +242,18 @@
          y="387.32504">TCP/IP</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:18px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       x="340.93158"
-       y="237.82368"
+       style="font-size:18px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="408.10672"
+       y="246.40997"
        id="text2435"><tspan
          sodipodi:role="line"
          id="tspan2437"
-         x="340.93158"
-         y="237.82368">Threading</tspan></text>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 363.65492,100.59385 C 363.65492,110.69537 363.65492,110.69537 363.65492,110.69537"
-       id="path2439"
-       transform="translate(24.753813,143.29076)" />
+         x="408.10672"
+         y="246.40997">Threading</tspan><tspan
+         sodipodi:role="line"
+         x="408.10672"
+         y="268.90997"
+         id="tspan3405">engine</tspan></text>
     <image
        style="opacity:1"
        y="173.54111"
@@ -424,5 +371,161 @@
        style="opacity:1;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6.69999981;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:13.39999962, 6.69999981, 3.3499999, 6.69999981;stroke-dashoffset:49.57999859;stroke-opacity:1"
        d="M 285.87825,266.61304 C 177.79193,266.61304 177.79193,266.61304 177.79193,266.61304 L 177.79193,271.66381"
        id="path3705" />
+    <g
+       id="g3275">
+      <rect
+         y="315.16162"
+         x="296.98993"
+         height="55.558392"
+         width="54.043159"
+         id="rect2478"
+         style="opacity:1;fill:#008080;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         id="text2480"
+         y="332.83929"
+         x="309.61685"
+         style="font-size:12px;font-style:normal;font-weight:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           id="tspan2482"
+           style="font-size:10px"
+           y="332.83929"
+           x="309.61685"
+           sodipodi:role="line">EJB00</tspan><tspan
+           id="tspan2484"
+           style="font-size:10px"
+           y="345.33929"
+           x="309.61685"
+           sodipodi:role="line" /><tspan
+           id="tspan2486"
+           style="font-size:10px"
+           y="357.83929"
+           x="309.61685"
+           sodipodi:role="line">stub</tspan></text>
+    </g>
+    <g
+       style="opacity:1"
+       id="g3282"
+       transform="translate(63.892146,-6.126126e-2)">
+      <rect
+         y="315.16162"
+         x="296.98993"
+         height="55.558392"
+         width="54.043159"
+         id="rect3284"
+         style="opacity:1;fill:#008080;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         id="text3286"
+         y="332.83929"
+         x="309.61685"
+         style="font-size:12px;font-style:normal;font-weight:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           id="tspan3288"
+           style="font-size:10px"
+           y="332.83929"
+           x="309.61685"
+           sodipodi:role="line">EJB01</tspan><tspan
+           id="tspan3290"
+           style="font-size:10px"
+           y="345.33929"
+           x="309.61685"
+           sodipodi:role="line" /><tspan
+           id="tspan3292"
+           style="font-size:10px"
+           y="357.83929"
+           x="309.61685"
+           sodipodi:role="line">stub</tspan></text>
+    </g>
+    <g
+       style="opacity:1"
+       id="g3294"
+       transform="translate(129.04699,-6.1261227e-2)">
+      <rect
+         y="315.16162"
+         x="296.98993"
+         height="55.558392"
+         width="54.043159"
+         id="rect3296"
+         style="opacity:1;fill:#008080;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         id="text3298"
+         y="332.83929"
+         x="309.61685"
+         style="font-size:12px;font-style:normal;font-weight:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           id="tspan3300"
+           style="font-size:10px"
+           y="332.83929"
+           x="309.61685"
+           sodipodi:role="line">EJB02</tspan><tspan
+           id="tspan3302"
+           style="font-size:10px"
+           y="345.33929"
+           x="309.61685"
+           sodipodi:role="line" /><tspan
+           id="tspan3304"
+           style="font-size:10px"
+           y="357.83929"
+           x="309.61685"
+           sodipodi:role="line">stub</tspan></text>
+    </g>
+    <image
+       y="336.99887"
+       x="382.52805"
+       id="image3689"
+       height="82.472069"
+       width="94.593895"
+       sodipodi:absref="/mnt/home/mikael/kirjasto/grafiikka/ikonit/jruby-pickaxe.png"
+       xlink:href="/mnt/home/mikael/kirjasto/grafiikka/ikonit/jruby-pickaxe.png" />
+    <image
+       y="386.57117"
+       x="333.98236"
+       id="image3389"
+       height="26.763941"
+       width="63.395897"
+       sodipodi:absref="/mnt/home/mikael/kirjasto/grafiikka/ikonit/jruby-codehaus.png"
+       xlink:href="/mnt/home/mikael/kirjasto/grafiikka/ikonit/jruby-codehaus.png" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:0.73,0.73;stroke-dashoffset:0"
+       d="M 261.62951,80.895871 C 301.02546,170.29437 301.02546,170.29437 301.02546,170.29437"
+       id="path3393"
+       transform="translate(24.753813,143.29076)" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:0.73,0.73;stroke-dashoffset:0"
+       d="M 263.14474,122.31213 C 365.17015,171.8096 365.17015,171.8096 365.17015,171.8096"
+       id="path3395"
+       transform="translate(24.753813,143.29076)" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:0.73,0.73;stroke-dashoffset:0"
+       d="M 261.62951,164.23346 C 429.81991,171.8096 429.81991,171.8096 429.81991,171.8096"
+       id="path3397"
+       transform="translate(24.753813,143.29076)" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:1.3,1.3;stroke-dashoffset:0"
+       d="M 303.55084,171.8096 C 466.69048,136.45426 466.69048,136.45426 466.69048,136.45426"
+       id="path3399"
+       transform="translate(24.753813,143.29076)" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:1.3,1.3;stroke-dashoffset:0"
+       d="M 364.15999,171.8096 C 464.1651,136.45426 464.1651,136.45426 464.1651,136.45426"
+       id="path3401"
+       transform="translate(24.753813,143.29076)" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:1.3,1.3;stroke-dashoffset:0"
+       d="M 429.81991,171.8096 C 465.17525,136.45426 465.17525,136.45426 465.17525,136.45426"
+       id="path3403"
+       transform="translate(24.753813,143.29076)" />
+    <path
+       sodipodi:type="spiral"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.08510638"
+       id="path3407"
+       sodipodi:cx="373.25137"
+       sodipodi:cy="106.14969"
+       sodipodi:expansion="1"
+       sodipodi:revolution="3"
+       sodipodi:radius="64.667519"
+       sodipodi:argument="-18.431332"
+       sodipodi:t0="0"
+       d="M 373.25137,106.14969 C 376.21425,107.46652 372.93809,110.79326 371.06271,111.07418 C 365.98055,111.83545 362.92113,106.12751 363.40239,101.77236 C 364.26323,93.982022 372.69584,89.864861 379.81736,91.376207 C 390.26849,93.594168 395.5712,105.06414 392.94935,114.90434 C 389.45484,128.01979 374.8515,134.5369 362.30805,130.77216 C 346.52342,126.03462 338.7804,108.25738 343.70441,93.017707 C 349.66804,74.560424 370.63999,65.585551 388.57202,71.678232 C 409.70429,78.858245 419.91458,103.03702 412.64732,123.659 C 404.25699,147.46789 376.86373,158.91589 353.5534,150.47013 C 327.06672,140.87352 314.37941,110.26061 324.00643,84.263052 C 334.8065,55.097726 368.64273,41.169969 397.32667,51.980256 C 429.17129,63.981724 444.34035,101.04394 432.3453,132.41365"
+       transform="translate(24.753813,143.29076)" />
   </g>
 </svg>
