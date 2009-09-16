@@ -1,0 +1,12 @@
+# EJB-dispatcher configuration.
+#
+# You should begin by creating your own class to vendor/lib.
+# Then configure the DRb server for the class.
+
+dummy:
+  hostname: localhost
+  port: 9876
+  class: EjbObject
+
+logger:
+  level: INFO
