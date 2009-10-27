@@ -36,7 +36,7 @@ module EJBDispatcher
     #
     # tunes the logger level according to configuration
     def set_config
-      logger.info 'Locating configuration file'
+      logger.debug 'Locating configuration file'
       if ENV['DISPATCHER_CONFIG']
         config_file = ENV['DISPATCHER_CONFIG']
       else

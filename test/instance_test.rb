@@ -92,6 +92,8 @@ class InstanceTest < Test::Unit::TestCase
   end
 
   def test_start_stop
+    flunk_without_ejb_host
+
     # test client
     ejb = @ejbs.keys.first
     instance = EJBDispatcher::Instance.new(ejb)
@@ -133,6 +135,8 @@ class InstanceTest < Test::Unit::TestCase
   end
 
   def test_revoke
+    flunk_without_ejb_host
+
     @instances = EJBDispatcher.collect_dispatchers
     @instances.each do |dp|
       dp.start_thread

@@ -6,6 +6,7 @@ require this_dir+'/test_helper'
 
 require 'timeout'
 
+# Tests the actual configuration.
 class HydraTest < Test::Unit::TestCase
   def setup
     @ports = EJBDispatcher.ejbs.collect{|ejb| ejb[1]['port']}
@@ -67,14 +68,16 @@ class HydraTest < Test::Unit::TestCase
     dispatchers = @hydra.dispatchers
     threads = @hydra.threads
     assert @hydra.stop
-    assert ports_are_not_listening(@ports), 'still listening'
+    assert ports_are_not_listening(@ports), 'Some ports are still listening'
 
-    self.assert_equal(3,@hydra.dispatchers.size)
-    self.assert_equal(3,@hydra.threads.size)
+    self.assert_equal(1,@hydra.dispatchers.size, 'Wrong number of dispatchers')
+    self.assert_equal(1,@hydra.threads.size, 'Wrong number of threads')
     dispatchers.each do |dp|
       assert !dp.alive?
       assert !dp.connected?
     end
+
+    flunk_without_ejb_host
 
     # test client (should not respond)
     @ports.each do |port|
@@ -104,6 +107,8 @@ class HydraTest < Test::Unit::TestCase
     self.assert_equal boot_at, @hydra.boot_at
     self.assert_equal dispatchers.size, @hydra.dispatchers.size
     assert ports_are_listening(@ports)
+
+    flunk_without_ejb_host
 
     # test client
     @ports.each do |port|
