@@ -23,3 +23,20 @@ Rake::RDocTask.new(:rdoc) do |rdoc|
   rdoc.options << '--line-numbers' << '--inline-source'
 end
 
+begin
+  require 'jeweler'
+  Jeweler::Tasks.new do |gemspec|
+    gemspec.name = "ejb-dispatcher"
+    gemspec.summary = "EJB-dispatcher"
+    gemspec.description = "Describe your gem"
+    gemspec.email = "mikael.lammentausta+github+@gmail.com"
+    gemspec.homepage = "http://github.com/lamikae/ejb-dispatcher"
+    gemspec.description = "README"
+    gemspec.authors = ["Mikael Lammentausta"]
+    gemspec.executables = "ejb-dispatcher.rb"
+    gemspec.files.exclude "wiki"
+  end
+rescue LoadError
+  puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
+end
+
