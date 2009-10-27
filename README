@@ -2,3 +2,11 @@
 
 Read online documentation[http://wiki.github.com/lamikae/ejb-dispatcher]
 
+
+= Notes on RMI/ORMI:
+
+Only ORMI is tested. RMI should act just as fine, but it needs subtle changes in the code.
+Contact the author for support.
+
+If you however would like to use ORMI, just drop the required JARs to vendor/lib/java.
+
