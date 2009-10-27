@@ -40,3 +40,8 @@ rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
 end
 
+
+desc 'Build the RubyGem'
+task :gem => :gemspec do
+  system("gem build ejb-dispatcher.gemspec")
+end
