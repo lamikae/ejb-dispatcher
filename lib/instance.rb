@@ -93,7 +93,7 @@ module EJBDispatcher
     end
 
     # TODO: document
-    def revoke
+    def revoke # :nodoc:
       logger.debug 'Revoking instance %s (%s)' % [@config['class'], @uri]
       # locate the DRbServer
       srv = DRb.fetch_server(@uri)
@@ -115,7 +115,7 @@ module EJBDispatcher
       return DRb.thread
     end
 
-    # Returns the thread of an instance (set in ARGV)
+    # Returns the thread of an instance
     def start_thread
       logger.info 'Instance: %s (%s)' % [ejb,config['class']]
       logger.info 'URI: %s' % @uri

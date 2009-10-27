@@ -1,6 +1,35 @@
 = EJB-dispatcher
-
 Read online documentation[http://wiki.github.com/lamikae/ejb-dispatcher]
+
+= Installing
+Set up JRuby 1.1.6 and JRUBY_HOME to /usr/local/jruby:
+
+ $ sudo -E ${JRUBY_HOME}/bin/jruby ${JRUBY_HOME}/bin/gem install ejb-dispatcher-1.0.0.gem
+    Successfully installed ejb-dispatcher-1.0.0
+    1 gem installed
+    Installing ri documentation for ejb-dispatcher-1.0.0...
+    Installing RDoc documentation for ejb-dispatcher-1.0.0...
+
+
+= Running
+ $ ejb-dispatcher.rb
+    D, [2009-10-27T14:19:06.669204 #13734] DEBUG -- : Locating configuration file
+    D, [2009-10-27T14:19:06.673755 #13734] DEBUG -- : /usr/local/jruby-1.1.6/lib/ruby/gems/1.8/gems/ejb-dispatcher-1.0.0/lib/../config/dispatcher.yml
+    I, [2009-10-27T14:19:06.680372 #13734]  INFO -- : No vendor classes found
+    I, [2009-10-27T14:19:06.681158 #13734]  INFO -- : Starting EJB dispatcher 1.0.0_RC
+    I, [2009-10-27T14:19:06.681833 #13734]  INFO -- : PPID: 13734
+    I, [2009-10-27T14:19:06.684998 #13734]  INFO -- : Instance: dummy (EjbObject)
+    I, [2009-10-27T14:19:06.685558 #13734]  INFO -- : URI: druby://localhost:9876
+    E, [2009-10-27T14:19:06.686546 #13734] ERROR -- : undefined method `jndi_name' for EjbObject:Class
+    I, [2009-10-27T14:19:06.743582 #13734]  INFO -- : Ready
+
+
+= Notes on tests
+EJB-dispatcher has a test suite that tests the dispatcher itself, not any EJB methods.
+You will need to write the tests for any 3rd party EJBs you may want to use.
+Examples will be provided.
+
+Currently the test suite *does not run* without proprietary Oracle RMI JARs placed to +vendor/lib/java+.
 
 
 = Notes on RMI/ORMI:
