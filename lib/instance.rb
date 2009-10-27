@@ -100,6 +100,7 @@ module EJBDispatcher
 
       # copy the home object
       logger.debug 'Front: %s' % srv.front.inspect
+      return false unless srv.front
       home = srv.front.__ejbhome.dup
 
       # stop this DRb server
