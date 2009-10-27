@@ -8,6 +8,7 @@
 require 'rubygems'
 require 'rake'
 
+# Loads init and starts the Hydra.
 def start_daemon
   # load init
   file = File.symlink?(__FILE__) ? File.readlink(__FILE__) : __FILE__
@@ -29,9 +30,9 @@ def start_daemon
     trap("USR2") {
       EJBDispatcher.logger.info 'Trapped USR2 - revoking'
       hydra.revoke
-  }
-  sleep 5
-end
+    }
+    sleep 5
+  end
 end
 
 application = Rake.application
