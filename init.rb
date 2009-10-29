@@ -92,5 +92,5 @@ if File.exists?(vendor) and
   end
 
 else
-  EJBDispatcher.logger.info 'No vendor classes found'
+  EJBDispatcher.logger.warn 'No vendor classes found'
 end
