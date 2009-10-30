@@ -1,0 +1,24 @@
+Make release:
+
+ $ rake gem
+
+Install release:
+
+ $ sudo $JRUBY_HOME/bin/jruby $JRUBY_HOME/bin/gem install ejb-dispatcher-1.0.0.gem
+
+
+Install the dependecies gem by:
+
+ $ sudo $JRUBY_HOME/bin/jruby $JRUBY_HOME/bin/gem sources --add http://gems.github.com 
+ $ sudo $JRUBY_HOME/bin/jruby $JRUBY_HOME/bin/gem install technicalpickles-jeweler 
+
+Run tests with git code:
+
+ $ cd vendor
+ $ DISPATCHER_HOME=$(pwd)/.. jruby $(which rake) test:gem
+
+Or with release:
+
+ $ cd hub
+ $ jruby $(which rake) test:gem
+
