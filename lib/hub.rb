@@ -7,7 +7,7 @@ vendor = ENV['DISPATCHER_HUB']
 EJBDispatcher::HUB = vendor
 
 ### load vendor classes
-require 'find'
+# in pre-1.0.0 parlance, vendor equals hub.
 
 if !vendor.nil? and File.exists?(vendor)
   vendor_lib = File.join(vendor,'lib')
@@ -16,22 +16,28 @@ if !vendor.nil? and File.exists?(vendor)
     # add vendor/lib/java to CLASSPATH, if exists
     # it may have exploded jars and plain class files.
     $CLASSPATH << vendor_java
+
     # include jars
-    Find.find(vendor_java) do |file|
-      if file[/.jar$/]
-        EJBDispatcher.logger.info " (JAR)  => #{file}"
-        $CLASSPATH << file
-      end
+    files = Dir.new(vendor_java).entries.collect do |file|
+      File.join(vendor_java,file) if file[/.jar$/]
+    end
+    files.compact!
+    files.each do |jar|
+      EJBDispatcher.logger.info " (JAR)  => #{jar}"
+      require "#{jar}"
+#       $CLASSPATH << jar # is this necessary anymore?
     end
   end
 
   # load JRuby classes from vendor/lib
   if File.exists?(vendor_lib)
-    Find.find(vendor_lib) do |file|
-      if file[/.rb$/]
-        EJBDispatcher.logger.info " (load) =) #{file}"
-        require file
-      end
+    files = Dir.new(vendor_lib).entries.collect do |file|
+      File.join(vendor_lib,file) if file[/.rb$/]
+    end
+    files.compact!
+    files.each do |file|
+      EJBDispatcher.logger.info " (load) =) #{file}"
+      require file
     end
   end
 
