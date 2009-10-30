@@ -40,9 +40,13 @@ module EJBDispatcher
       if ENV['DISPATCHER_CONFIG']
         config_file = ENV['DISPATCHER_CONFIG']
       else
-        raise 'Hub not found' unless ENV['DISPATCHER_HUB']
+        unless ENV['DISPATCHER_HUB']
+          EJBDispatcher.logger.warn 'Hub not found'
+          return false
+        end
         hub = ENV['DISPATCHER_HUB']
         config_file = File.join(hub,'config','dispatcher.yml')
+
       end
       logger.debug config_file
       unless File.exists?(config_file)

@@ -40,8 +40,11 @@ Have a look at how the EJB::Example is configued to config/dispatcher.yml.
 
 == Startup
 
-You may create a init.rb file, in which you may want to import some Java. It is run only after the CLASSPATH is set
-and Ruby classes are loaded.
+The example EJB does not work, as it needs the external J2EE server technology to operate.
+The actual server startup is done either by the init scripts or manually,
+inside the hub directory, by calling the start task:
+
+ $ ejb-dispatcher start
 
 
 == Hacking

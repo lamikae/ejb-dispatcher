@@ -19,13 +19,14 @@ end
 
 
 def flunk_without_ejb_host
-  if EJBDispatcher.ejbs['dummy']
+  if EJBDispatcher.ejbs['example']
     flunk 'This test cannot be run without a proper EJB host.'
   end
 end
 
 class Test::Unit::TestCase
   def setup
+    ENV['DISPATCHER_HUB']=nil
     ENV['DISPATCHER_CONFIG']=nil
     EJBDispatcher.set_config
     EJBDispatcher.set_logger

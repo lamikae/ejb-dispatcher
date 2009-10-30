@@ -3,12 +3,13 @@
 #  - loads Ruby files from lib
 #  - loads init.rb if found
 
-vendor = EJBDispatcher::HUB = ENV['DISPATCHER_HUB']
+vendor = ENV['DISPATCHER_HUB']
+EJBDispatcher::HUB = vendor
 
 ### load vendor classes
 require 'find'
 
-if File.exists?(vendor) and
+if !vendor.nil? and File.exists?(vendor)
   vendor_lib = File.join(vendor,'lib')
   vendor_java = File.join(vendor_lib,'java')
   if File.exists?(vendor_java)
