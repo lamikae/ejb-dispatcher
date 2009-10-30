@@ -1,0 +1,64 @@
+Welcome to the hub.
+===================
+
+== Introduction
+
+You are building a web site with Rails and EJBs are a part of the architecture?
+You need to call several, maybe unrelated EJBs with a Ruby client?
+EJB-dispatcher with ActiveEJB may well be the solution for you.
+
+EJB-dispatcher contains a lot of magic but it needs to be told the remote host.
+Instead of providing a flat text file for configuration, this information
+will be coded directly in Ruby.
+
+Do not be afraid if you are not an expert. You do not need much EJB or Java knowledge.
+You need some experience with Ruby, but you would need it anyway to make use of EJB data.
+
+
+== Setup
+
+First of all, you need some Java libraries that contain your custom EJB interface bytecode.
+This may be a single or multiple JAR files. Place these in lib/java.
+
+Each remote EJB is configured by creating a new Ruby class to the lib folder.
+See the included example.rb.
+You need to configure:
+
+ - jndi_name *
+ - provider_url *
+ - security_principal *
+ - security_credentials *
+ - bean_home_class
+
+* are required.
+
+Please refer to EJB provider to tell what are the correct values.
+Take a closer look to the provider_url protocol whether it is rmi:// or ormi://.
+
+Have a look at how the EJB::Example is configued to config/dispatcher.yml.
+
+
+== Startup
+
+You may create a init.rb file, in which you may want to import some Java. It is run only after the CLASSPATH is set
+and Ruby classes are loaded.
+
+
+== Hacking
+
+All properties and methods of the stub are transparently marshalled over to the DRb client, which may resides on a different host, running perhaps a different operating system, with certain implications.
+
+Upon first class instantiation, the dispatcher sends create request to the remote EJB home, and once it gets the stub object, stores it to be used by all DRb clients. Instance persistence is handled by Singleton.
+
+If you are not familiar with EJB creation, don't worry. You just need the JARs and connection parameters.
+
+
+== Support
+
+You may be confused what ORMI is. ORMI is a "plug-in replacement" for RMI.
+RMI is a standard Java library for accessing remote interfaces. ORMI is property of Oracle.
+You will need to find the open source RMI libraries and plug them to lib/java,
+test the connection, and send the patch upstream.
+
+You may also contact the author for support.
+
