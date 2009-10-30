@@ -1,12 +1,27 @@
-# EJB-dispatcher configuration.
+# EJB-dispatcher configuration for DRbServers.
 #
-# You should begin by creating your own class to vendor/lib.
-# Then configure the DRb server for the class.
+# The servers provide EJB connection for remote ActiveEJB clients.
+# All communication is carried over by TCP, even when the client and host
+# are physically the same. You must secure the connection yourself,
+# which can be done by SSH port forwarding.
+#
+# This configures a DRbServer instance.
+# Instances configured here are automatically picked up by EJB-dispatcher daemon
+# when it is started from the main hub directory, one step down from config.
+#
 
-dummy:
+example:
   hostname: localhost
-  port: 9876
-  class: EjbObject
+  port:		9876
+  class:	EJB::Example
 
+# Multiple EJBs can be freely added.
+#
+#	another_example:
+#		hostname:	localhost
+#		port:		9876
+#		class:		EJB::NameFreely
+
+# Logging is hard-coded to STDOUT.
 logger:
   level: INFO
