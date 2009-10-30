@@ -1,30 +1,59 @@
-= EJB-dispatcher
+h1. EJB-dispatcher
 Read online documentation[http://wiki.github.com/lamikae/ejb-dispatcher]
 
-= Installing
-Set up JRuby 1.1.6 and JRUBY_HOME to /usr/local/jruby:
 
+h2. Installation
+
+First, install EJB-dispatcher from the gem to JRuby 1.1.6.
+<pre>
+ $ export JRUBY_HOME="/usr/local/jruby"
  $ sudo -E ${JRUBY_HOME}/bin/jruby ${JRUBY_HOME}/bin/gem install ejb-dispatcher-1.0.0.gem
-    Successfully installed ejb-dispatcher-1.0.0
-    1 gem installed
-    Installing ri documentation for ejb-dispatcher-1.0.0...
-    Installing RDoc documentation for ejb-dispatcher-1.0.0...
+</pre>
+
+Note that eventually the gem will be placed to Rubyforge. For now you must build the gem yourself by executing "rake gem" in the EJB-dispatcher git clone.
 
 
-= Running
- $ ejb-dispatcher.rb
-    D, [2009-10-27T14:19:06.669204 #13734] DEBUG -- : Locating configuration file
-    D, [2009-10-27T14:19:06.673755 #13734] DEBUG -- : /usr/local/jruby-1.1.6/lib/ruby/gems/1.8/gems/ejb-dispatcher-1.0.0/lib/../config/dispatcher.yml
-    I, [2009-10-27T14:19:06.680372 #13734]  INFO -- : No vendor classes found
-    I, [2009-10-27T14:19:06.681158 #13734]  INFO -- : Starting EJB dispatcher 1.0.0_RC
-    I, [2009-10-27T14:19:06.681833 #13734]  INFO -- : PPID: 13734
-    I, [2009-10-27T14:19:06.684998 #13734]  INFO -- : Instance: dummy (EjbObject)
-    I, [2009-10-27T14:19:06.685558 #13734]  INFO -- : URI: druby://localhost:9876
-    E, [2009-10-27T14:19:06.686546 #13734] ERROR -- : undefined method `jndi_name' for EjbObject:Class
-    I, [2009-10-27T14:19:06.743582 #13734]  INFO -- : Ready
+h2. Startup
+
+To use EJB-dispatcher one must create a hub where to place all custom Ruby code and Java bytecode.
+
+Creating a new hub is done by calling the init task with a name for the hub:
+<pre>
+  $ ejb-dispatcher.rb init[name]
+</pre>
+
+After creation, you can find a clean configuration file config/dispatcher.yml and empty folders to house the code. You should introduce this directory into version control.
+
+Then what???
 
 
-= Notes on tests
+h2. Daemon environment
+
+If you like EJB-dispatcher and want to run it as a daemon, you should create a new dedicated user account "ejb-dispatcher".
+
+<pre>
+  $ sudo /usr/sbin/useradd -c 'EJB dispatcher for Ruby' -d /opt/ejb-dispatcher -m -g nobody -s /bin/bash ejb-dispatcher
+  $ sudo passwd ejb-dispatcher
+</pre>
+
+Insert the environment settings to the user's profile (/opt/ejb-dispatcher/.profile)
+
+<pre>
+  export JRUBY_HOME="/usr/local/jruby"
+  export PATH="${JRUBY_HOME}/bin:${HOME}/ejb-dispatcher/bin:${PATH}"
+</pre>
+
+
+h3. Init scripts
+An init script for Red Hat Linux is provided, and the same script also works on CentOS and possibly also on Fedora.
+
+NOT IN GIT MASTER YET!
+
+The scripts rely that the corresponding user and the environment have been set up.
+
+
+
+h2. Notes on tests
 EJB-dispatcher has a test suite that tests the dispatcher itself, not any EJB methods.
 You will need to write the tests for any 3rd party EJBs you may want to use.
 Examples will be provided.
@@ -32,7 +61,7 @@ Examples will be provided.
 Currently the test suite *does not run* without proprietary Oracle RMI JARs placed to +vendor/lib/java+.
 
 
-= Notes on RMI/ORMI:
+h2. Notes on RMI/ORMI:
 
 Only ORMI is tested. RMI should act just as fine, but it needs subtle changes in the code.
 Contact the author for support.

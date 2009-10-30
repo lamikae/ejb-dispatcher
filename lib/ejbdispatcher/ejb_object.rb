@@ -1,6 +1,7 @@
 # Proxy for the EJBObject stub.
 #
-# The stub is the EJB interface. Any method not directed to the class itself is directed to the stub.
+# The stub is the EJB interface.
+# Any method not directed to the class itself is directed to the stub.
 class EjbObject
 
   class << self
