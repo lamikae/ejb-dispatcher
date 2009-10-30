@@ -10,7 +10,7 @@ require 'rake'
 
 # Loads init and starts the dispatcher threads.
 def start_daemon
-  
+
   # load init
   file = File.symlink?(__FILE__) ? File.readlink(__FILE__) : __FILE__
   this_dir = File.dirname(File.expand_path(file))
@@ -47,13 +47,13 @@ def usage
   STDOUT.puts "
   To use EJB-dispatcher one must create a hub where to place
   all custom Ruby code and Java bytecode.
-  
+
   Creating a new hub is done by calling init with a name for the hub:
     #{$0} init[name]
-    
+
   After creation, cd to the newly created directory.
   There you can find a clean config/dispatcher.yml
-  and folders for the code.    
+  and folders for the code.
   "
 end
 
@@ -70,10 +70,10 @@ application.standard_exception_handling do
     if args.name.nil?
       usage
       exit 1
-    end 
+    end
     STDOUT.puts 'Initializing new EJB-dispatcher hub %s' % args.name
     dir = args.name
-    
+
     # create directories
     require 'fileutils'
     FileUtils.mkdir_p [
@@ -81,7 +81,7 @@ application.standard_exception_handling do
       File.join(dir,"lib","java"),
       File.join(dir,"test")
     ]
-    
+
     # locate source
     file = File.symlink?(__FILE__) ? File.readlink(__FILE__) : __FILE__
     vendor = File.join(
@@ -89,7 +89,7 @@ application.standard_exception_handling do
       '..',
       'vendor'
       )
-    
+
     # copy directory
     FileUtils.copy_entry(vendor,dir)
 
@@ -98,16 +98,19 @@ application.standard_exception_handling do
   end
 
   task :start do
-    # look for configuration file under current directory
+    hub = Dir.pwd
+    STDOUT.puts "Starting EJB-dispatcher hub %s" % hub
+    ENV['DISPATCHER_HUB'] = hub
+
+    # look for configuration file in hub
     config = File.join(
-      Dir.pwd, 'config', 'dispatcher.yml'
+      hub, 'config', 'dispatcher.yml'
       )
     unless File.exists?(config)
       STDERR.puts "Configuration file was looked for at \n%s" % config
       STDERR.puts "but it could not be found - this is not a proper dispatcher hub.\n"
       usage
     else
-      ENV['DISPATCHER_CONFIG'] = config
       start_daemon
     end
     exit 1 # exit w/ error

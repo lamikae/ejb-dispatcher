@@ -4,7 +4,7 @@ module EJBDispatcher
 
   # Meta magic.
   module ClassMethods
-    
+
     # Defines class methods from vendor models for this instance of the EJB.
     #
     # All instances of this particular EJB will then share this method.
@@ -12,12 +12,12 @@ module EJBDispatcher
       #logger.debug 'Defining %s' % name
       (class << self; self; end).class_eval "def #{name}; #{value.to_s.inspect}; end"
     end
-    
+
     # Defines @attribute reader for this instance.
     def define_attr_reader(name)
       (class << self; self; end).class_eval "attr_reader :#{name}"
     end
-    
+
   end
 
   def self.included(base)
@@ -25,7 +25,7 @@ module EJBDispatcher
   end
 
   extend ClassMethods
-  
+
   class << self
 
     public
@@ -40,9 +40,9 @@ module EJBDispatcher
       if ENV['DISPATCHER_CONFIG']
         config_file = ENV['DISPATCHER_CONFIG']
       else
-        this_file = File.symlink?(__FILE__) ? File.readlink(__FILE__) : __FILE__
-        this_dir = File.dirname(File.expand_path(this_file))
-        config_file = File.join(this_dir,'..','config','dispatcher.yml')
+        raise 'Hub not found' unless ENV['DISPATCHER_HUB']
+        hub = ENV['DISPATCHER_HUB']
+        config_file = File.join(hub,'config','dispatcher.yml')
       end
       logger.debug config_file
       unless File.exists?(config_file)
@@ -55,7 +55,6 @@ module EJBDispatcher
           config['logger']['level'] then
           logger.level = Logger.const_get(config['logger']['level'])
         end
-        # TODO: read vendor config
         logger.debug 'Configuration: %s' % config.inspect
       end
     end
@@ -64,7 +63,7 @@ module EJBDispatcher
     #   sets attr_reader :logger
     def set_logger
       @logger = Logger.new(STDOUT)
-      #@logger = Logger.new('dispatcher.log')
+      @logger.level = Logger::INFO
       define_attr_reader :logger
     end
 

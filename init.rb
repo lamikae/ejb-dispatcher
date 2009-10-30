@@ -46,52 +46,20 @@ require File.join(this_dir,'lib','ejb')
 # set HOME
 EJBDispatcher::HOME = this_dir
 
-### load logger + configuration
-# first accept env variable DISPATCHER_CONFIG,
-# second look in this directory
+### load logger
 EJBDispatcher.set_logger
 
 # EJB-dispatcher classes are loaded *before* configuration
 require File.join(this_dir,'lib','ejbdispatcher','home_object')
 require File.join(this_dir,'lib','ejbdispatcher','ejb_object')
 
-# Hydra
+# Load hub environment
+require File.join(this_dir,'lib','hub')
+
+# Prepare Hydra
 require File.join(this_dir,'lib','hydra')
 require File.join(this_dir,'lib','instance')
 EJBDispatcher::Instance.extend(EJBDispatcher::ClassMethods)
 
+# Load configuration
 EJBDispatcher.set_config
-
-
-### load vendor classes
-require 'find'
-vendor = File.join(this_dir,'vendor')
-if File.exists?(vendor) and
-  vendor_lib = File.join(vendor,'lib')
-  vendor_java = File.join(vendor_lib,'java')
-  if File.exists?(vendor_java)
-    # add vendor/lib/java to CLASSPATH, if exists
-    # it may have exploded jars and plain class files.
-    $CLASSPATH << vendor_java
-    # include jars
-    Find.find(vendor_java) do |file|
-      $CLASSPATH << file if file[/.jar$/]
-    end
-  end
-
-  # load JRuby classes from vendor/lib
-  if File.exists?(vendor_lib)
-    Find.find(vendor_lib) do |file|
-      require file if file[/.rb$/]
-    end
-  end
-
-  # run vendor init
-  vendor_init = File.join(vendor,'init.rb')
-  if File.exists?(vendor_init)
-    require vendor_init
-  end
-
-else
-  EJBDispatcher.logger.warn 'No vendor classes found'
-end
