@@ -24,7 +24,7 @@ Creating a new hub is done by calling the init task with a name for the hub:
 
 After creation, you can find a clean configuration file config/dispatcher.yml and empty folders to house the code. You should introduce this directory into version control.
 
-Then what???
+Follow the instructions on the README inside the newly created hub.
 
 
 h2. Daemon environment
