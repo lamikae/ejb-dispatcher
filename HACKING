@@ -18,10 +18,13 @@ Run tests with git code:
  $ DISPATCHER_HOME=$(pwd)/.. jruby $(which rake) test:gem
 
 Or within a working hub:
- $ DISPATCHER_HOME=~/dev/ejb-dispatcher jruby $(which rake) test:gem 
+ $ DISPATCHER_HOME=~/dev/ejb-dispatcher DISPATCHER_HUB=. jruby $(which rake) test:gem 
 
-Or with release:
+Or within master, using another hub:
+ $ DISPATCHER_HOME=. DISPATCHER_HUB=~/dev/my-private-hub jruby $(which rake) test
 
- $ cd hub
+Or with the libraries from gem release:
+
+ $ cd your-own-hub
  $ jruby $(which rake) test:gem
 
