@@ -1,0 +1,131 @@
+#! /bin/sh
+#
+# ejb-dispatcher: ejb-dispatcher start script
+#
+# Provides:          ejb-dispatcher
+# Required-Start:    $local_fs $network
+# Default-Start:     3 5
+# Default-Stop:      0 1 6
+# Short-Description: ejb-dispatcher start script
+# Description:       EJB-dispatcher is a JRuby daemon 
+### END INIT INFO
+
+PATH=/sbin:/bin:/usr/bin:/usr/sbin
+
+# Source function library
+. /etc/rc.d/init.d/functions
+
+# Check that networking is up.
+#[ "${NETWORKING}" = "yes" ] || exit 0
+
+####
+NAME=ejb-dispatcher
+prog=ejb-dispatcher.rb
+ACTION=$1
+shift
+prog_ARGS=$@ # all crammed into a single string
+PIDFILE=/var/run/$NAME.pid
+SCRIPTNAME=/etc/init.d/$NAME
+USER=ejb-dispatcher
+HOME=/opt/$NAME
+LOGFILE=$HOME/log/$NAME.log
+
+# Exit if the package is not installed
+# check user's home
+#[ -x "$prog" ] || exit 0
+
+
+#
+# Function that starts the daemon/service
+#
+start()
+{
+        echo -n $"Starting $NAME"
+
+        JRUBY_HOME="/usr/local/jruby" \
+        PATH="${JRUBY_HOME}/bin:${HOME}/bin:${PATH}" \
+        JAVA_HOME=/opt/jdk \
+        daemon --pidfile=$PIDFILE --user=$USER $prog -- start 2>&1 >> ${LOGFILE} &
+
+        RETVAL=$?
+        sleep 5
+        echo
+        [ $RETVAL = 0 ] && touch $PIDFILE
+
+        #echo `pidofproc $prog`
+        # trick to get PID
+        pid=`tail -n 5 ${LOGFILE}|awk -F':' /PID/{'print $NF'}`
+        #echo $pid
+        echo $pid > $PIDFILE
+
+        return $RETVAL
+
+	# Add code here, if necessary, that waits for the process to be ready
+	# to handle requests from services started subsequently which depend
+	# on this one.  As a last resort, sleep for some time.
+}
+
+#
+# Function that stops the daemon/service
+#
+stop()
+{
+    pid=`cat ${PIDFILE}`
+    kill -15 $pid
+    [ "$?" = 0 ] || return $?
+    sleep 2
+    ps $pid &> /dev/null
+    if [ "$?" = 0 ]; then
+        echo "process is still on, killing now"
+        kill -9 $pid
+    fi
+    [ "$?" = 0 ] || return $?
+
+    # Many daemons don't delete their pidfiles when they exit.
+    rm -f $PIDFILE
+    return $?
+}
+
+status()
+{
+	if [ -e "$PIDFILE" ]; then
+		pid=`cat ${PIDFILE}`
+		ps $pid &> /dev/null
+		if [ "$?" = 0 ]; then
+			echo "Service is on"
+			ps $pid
+			return 0
+		fi
+	fi
+	echo "Service is off"
+	return 1
+}
+
+
+case "$ACTION" in
+        start)
+                start
+		RETVAL=$?
+                ;;
+        stop)
+                stop
+		RETVAL=$?
+                ;;
+        restart)
+                stop
+                start
+		RETVAL=$?
+                ;;
+        status)
+                status
+		RETVAL=$?
+                ;;
+        *)
+                echo $"Usage: $0 {start|stop|restart|status}"
+                RETVAL=3
+esac
+
+echo "Exit value: $RETVAL"
+
+exit $RETVAL
+:

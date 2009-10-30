@@ -47,8 +47,6 @@ Insert the environment settings to the user's profile (/opt/ejb-dispatcher/.prof
 h3. Init scripts
 An init script for Red Hat Linux is provided, and the same script also works on CentOS and possibly also on Fedora.
 
-NOT IN GIT MASTER YET!
-
 The scripts rely that the corresponding user and the environment have been set up.
 
 
