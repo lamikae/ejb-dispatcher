@@ -41,6 +41,7 @@ DRb.install_id_conv DRb::TimerIdConv.new
 require 'singleton'
 
 require File.join(this_dir,'lib','ejbdispatcher')
+require File.join(this_dir,'lib','ejb')
 
 # set HOME
 EJBDispatcher::HOME = this_dir
