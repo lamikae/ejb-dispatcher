@@ -70,8 +70,8 @@ class HydraTest < Test::Unit::TestCase
     assert @hydra.stop
     assert ports_are_not_listening(@ports), 'Some ports are still listening'
 
-    self.assert_equal(1,@hydra.dispatchers.size, 'Wrong number of dispatchers')
-    self.assert_equal(1,@hydra.threads.size, 'Wrong number of threads')
+    self.assert_equal(EJBDispatcher.ejbs.size,@hydra.dispatchers.size, 'Wrong number of dispatchers')
+    self.assert_equal(EJBDispatcher.ejbs.size,@hydra.threads.size, 'Wrong number of threads')
     dispatchers.each do |dp|
       assert !dp.alive?
       assert !dp.connected?
@@ -87,6 +87,7 @@ class HydraTest < Test::Unit::TestCase
       begin
         d.__ping()
         flunk 'DRb server should be off, but it is still responding'
+      rescue
       end
       assert_raises DRb::DRbConnError do
         d.__ping()
