@@ -43,5 +43,8 @@ end
 
 desc 'Build the RubyGem'
 task :gem => :gemspec do
-  system("gem build ejb-dispatcher.gemspec")
+  gemspec_file = 'ejb-dispatcher.gemspec'
+  system("gem build #{gemspec_file}")
+  require 'fileutils'
+  FileUtils.rm(gemspec_file)
 end
