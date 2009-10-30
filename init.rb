@@ -11,7 +11,7 @@ this_dir = File.dirname(File.expand_path(this_file))
 
 
 ### load Java
-require 'java'
+include Java
 java_lib = File.join(this_dir,'lib','java')
 
 # set Java CLASSPATH
