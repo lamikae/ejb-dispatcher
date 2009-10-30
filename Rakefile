@@ -35,6 +35,7 @@ begin
     gemspec.authors = ["Mikael Lammentausta"]
     gemspec.executables = "ejb-dispatcher.rb"
     gemspec.files.exclude "wiki"
+    gemspec.files.include ["lib/libejb-dispatcher.rb"]
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"

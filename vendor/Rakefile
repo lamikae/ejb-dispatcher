@@ -4,10 +4,30 @@ require 'rake/testtask'
 desc 'Default: run unit tests.'
 task :default => :test
 
-desc 'Test the EJB dispatcher RMI client + DRb server.'
+ENV['DISPATCHER_HUB'] = Dir.pwd
+
+if ENV['DISPATCHER_HOME']
+  $LOAD_PATH << ENV['DISPATCHER_HOME']
+end
+
+desc 'Custom tests.'
 Rake::TestTask.new(:test) do |t|
   t.libs << 'lib'
   t.pattern = [ 'test/**/*_test.rb' ]
   t.verbose = true
 end
 
+namespace :test do
+
+  desc 'Test EJB-dispatcher with configured EJBs'
+  Rake::TestTask.new(:gem) do |t|
+    require 'libejb-dispatcher'
+
+    STDOUT.puts "Testing ejb-dispatcher @ %s" % EJBDispatcher::HOME
+
+    t.libs << EJBDispatcher::HOME
+    t.pattern = [ EJBDispatcher::HOME+'/test/**/*_test.rb' ]
+    t.verbose = true
+
+  end
+end

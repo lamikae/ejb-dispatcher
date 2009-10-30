@@ -2,9 +2,12 @@ raise 'requires JRuby -- "jruby $(which rake) test"' unless RUBY_PLATFORM =~ /ja
 
 STDOUT.puts 'Detected JRuby v%s' % JRUBY_VERSION
 
-require 'init'
+this_file = File.symlink?(__FILE__) ? File.readlink(__FILE__) : __FILE__
+this_dir = File.dirname(File.expand_path(this_file))
 
-# load vendor helpers
+require this_dir + '/../lib/libejb-dispatcher'
+
+# FIXME: load vendor helpers !!!
 require 'find'
 vendor = File.join(EJBDispatcher::HOME,'vendor','test')
 if File.exists?(vendor)
