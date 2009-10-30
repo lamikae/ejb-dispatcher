@@ -77,17 +77,8 @@ module EJBDispatcher
     # Default is EjbObject.
     def klass
       raise 'No configured EJB class!' unless config['class']
-      # work around Ruby feature that submodules cannot be converted from "A::B::C" string.
-      names = config['class'].split('::')
-      _klass = nil
-      names.each do |name|
-        if _klass.nil?
-          _klass = Kernel.const_get(name)
-        else
-          _klass = _klass.const_get(name)
-        end
-      end
-      return _klass
+      # convert submodules from "A::B::C" string
+      config['class'].split("::").inject(Object){|o,name|o.const_get(name)}
     end
 
     def stop
