@@ -29,7 +29,7 @@ if !vendor.nil? and File.exists?(vendor)
   if File.exists?(vendor_lib)
     Find.find(vendor_lib) do |file|
       if file[/.rb$/]
-        EJBDispatcher.logger.info " (load) => #{file}"
+        EJBDispatcher.logger.info " (load) =) #{file}"
         require file
       end
     end
@@ -38,7 +38,7 @@ if !vendor.nil? and File.exists?(vendor)
   # run vendor init
   vendor_init = File.join(vendor,'init.rb')
   if File.exists?(vendor_init)
-    EJBDispatcher.logger.info " (init) => #{vendor_init}"
+    EJBDispatcher.logger.info " (init) =D #{vendor_init}"
     require vendor_init
   end
 

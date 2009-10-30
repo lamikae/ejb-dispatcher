@@ -46,6 +46,9 @@ inside the hub directory, by calling the start task:
 
  $ ejb-dispatcher start
 
+It will output:
+E, [2009-10-30T12:29:48.951909 #13642] ERROR -- : javax.naming.NamingException: Unknown host: host
+
 
 == Hacking
 
